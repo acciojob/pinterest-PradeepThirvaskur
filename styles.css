@@ -1,1 +1,58 @@
 /*  your css code here. If applicable */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; 
+	justify-content: space-between;
+}
+
+
+.hero-image {
+    width: 130%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+
+.hero-content {
+    text-align: center;
+    color: #fff; 
+}
+
+
+.hero-content h1 {
+   color: black;
+    margin-bottom: 10px;
+}
+
+
+.hero-content p {
+   color: black;
+    margin-bottom: 20px;
+}
+
+
+.explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5e62;
+    color: #fff; 
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #ff4044; 
+}
